@@ -20,6 +20,6 @@ clone the repository
 go to the backend folder
 install in the terminal 'npm install'
 run the server in your terminal 'node server.js'
-open the index.html in your browser
+open the index.html in your browser as a live server
 
 
