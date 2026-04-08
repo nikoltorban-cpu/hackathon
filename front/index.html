@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="layout">  
+    <div class="sidebar">
+        <div class="profile">
+            <img id="img" src="https://api.dicebear.com/7.x/adventurer/svg?seed=user" />
+            <p id="greeting">Hello,</p>
+            <div class="nameBack"></div>
+            <p id="name">User</p>
+        </div>
+
+        <div class="menu">
+            <button id="toLogin">Log In</button>
+            <button id="dashboard">Dashboard</button>
+            <button id="products">Products</button>
+            <div id="categories"></div>
+            <button id="myFeedback">My Feedback</button>
+            <button id="exit">Exit</button>
+        </div>
+    </div>
+    <div id="productsContainer"></div>
+    <div id="productDetails" class="hidden"></div>
+  </div>  
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
